@@ -155,7 +155,6 @@ function diaDeLaSemana(numeroDeDia) {
       return 'Es fin de semana';
   } 
   return 'Es dia Laboral';
-  //fin
 } 
 
 
@@ -168,7 +167,7 @@ function empiezaConNueve(n) {
     return true;
   }
   return false;
-//fin
+
 }
 
 
