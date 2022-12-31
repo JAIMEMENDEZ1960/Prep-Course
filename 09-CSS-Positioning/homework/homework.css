@@ -1,3 +1,9 @@
+/* #ejercicioCuatro{
+    display:block;
+    position:fixed ; 
+    top: 0px;
+    left: 0px;
+}  */
 /*
 Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
@@ -7,32 +13,87 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+display: block;
+position: relative;
+text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+    display: none; 
+ /*   visibility: hidden;*/
+}
 
 
 /* Ejercicio 3: */
 
-/* Acá va tu código */
 
+/* Acá va tu código */
+#ejercicioTres{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro{
+    display:block;
+    position:fixed; 
+    top: 0px;
+    left: 0px;
+} 
 
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
+#ejerciciocinco{
+    display:flex;
+    justify-content:space-between; 
+    
+} 
 
 
 /* Ejercicio 6. */
+
+#ejerciciocinco{
+    flex-direction:row-reverse;
+}
+/* ejercicio7. */
+
+
+.Elementos {
+    /* flex-direction:row; */
+    /* flex-direction:row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction:column-reverse; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+    /* justify-content:flex-start; */
+    /* justify-content:end; */
+    /* justify-content:safe; */
+    /* justify-content:flex-start; */
+    /* justify-content:flex-start; */
+
+}
+#elementoUno{
+    align-self:end;
+    flex-direction:column-reverse;
+}
+#elementodos{
+    align-self:center;
+    order:-100;
+}
+#elementotres{
+    align-self:center;
+    order:100;
+    flex-direction: column;
+}
