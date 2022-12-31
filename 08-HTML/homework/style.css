@@ -1,0 +1,42 @@
+
+#prueba{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+h1{
+    color: red;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color:aqua;
+    /*padding: 50px;
+    border: 5px solid blue;*/
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+.divclass{
+    background-color:beige;
+}
+.parent{
+    border: 2px black dotted;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+#two{
+    top: 20px;
+    left:20px;
+    background: green;
+    position: relative;
+}
